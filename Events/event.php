@@ -310,6 +310,43 @@
             </div>
           </div>
 
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <!-- <div class="box">
+              <div class="icon" style="background: #e1eeff;">
+              <a href="../Events/EventDetails.php?branch=School_Events" target="_blank">
+              <img src = "../img/eventsIcons/school_events.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+              </a>
+              </div>
+              <h4 class="title">
+              <a href="../Events/EventDetails.php?branch=School_Events" target="_blank">School Events</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div> -->
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e1eeff;">
+              <a href="../Events/EventDetails.php?branch=Checkered_Flag" target="_blank">
+              <img src = "../img/eventsIcons/school_events.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+              </a>
+              </div>
+              <h4 class="title">
+              <a href="../Events/EventDetails.php?branch=Checkered_Flag" target="_blank">Checkred Flag</a></h4>
+              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <!-- <div class="box">
+              <div class="icon" style="background: #e1eeff;">
+              <a href="../Events/EventDetails.php?branch=School_Events" target="_blank">
+              <img src = "../img/eventsIcons/school_events.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+              </a>
+              </div>
+              <h4 class="title">
+              <a href="../Events/EventDetails.php?branch=School_Events" target="_blank">School Events</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div> -->
+          </div>
+
 
         </div>
 

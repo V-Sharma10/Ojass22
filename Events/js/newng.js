@@ -33,6 +33,10 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 				if(branchname == 'School_Events'|| BRANCHNAME == 'SCHOOL_EVENTS'){
 					branchname = 'School Events';
 				}
+				if (branchname == 'Checkered_Flag' || BRANCHNAME == 'CHECKERED_FLAG') {
+					branchname = 'Checkered Flag';
+					console.log(branchname);
+				}
 
 				for(var i in zz){
 					// console.log(i);
