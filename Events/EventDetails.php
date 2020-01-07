@@ -42,11 +42,14 @@
 
 <!-- Main Stylesheet File -->
 
-
-
-
-
  <link href="../css/style.css" rel="stylesheet">
+ <!--link for the EventDetails internal preview page-->
+ <?php $StyleEvent='./css/scroll';
+       $StyleEventModified = substr(md5(filemtime($StyleEvent)), 0, 6);
+ ?>
+ <link rel="stylesheet" type="text/css" href="<?php echo $StyleEvent;?>?v=<?php echo $StyleEventModified ; ?>">
+
+ <!--link for the EventDetails internal preview page ends-->
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -532,8 +535,9 @@
       <div>
       
 
-        <div class="row img-row" style="display:flex;justify-content:center;align-item:center;text-align:center;">
-          <div class="col-md-12 text-center imm"></div>
+        <div class=""><!--class='row' style="display:flex;justify-content:center;align-item:center;text-align:center;"-->
+        <!--the div below will be replaced every time-->
+          <div class="imm"></div><!--class 'col-md-12 text-center' removed by me-->
         </div>
         
         <div ng-repeat="event in events" class="event-wrapper zxcv" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
@@ -772,7 +776,8 @@
     <script type="text/javascript">
           var branchname= '<?php echo $_GET['branch']; ?>';
          
-          var html='<img src='+branches[branchname]+' class="event-img">'; 
+        //  var html='<img src='+branches[branchname]+' class="event-img">';
+          var html='<div class="event-details-preview"style="width: 70vw;height: 70vh; margin:5px auto; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"></div></div></div>'
           $('.imm').html(html);
 
           // $("a").mouseenter(function(){
@@ -799,12 +804,14 @@
             console.log('clicked');
             var branchname= '<?php echo $_GET['branch']; ?>';
          
-            var html='<img src='+branches[branchname]+' class="event-img">'; 
+            var html='<div class="event-details-preview"style="width: 70vw;height: 70vh; margin:5px auto; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"style="height: 250px; background: #fff;border-radius: 0 0 25px 25px;" ><div class="event-desc"></div></div></div>'; //<img src='+branches[branchname]+' class="event-img">
             console.log(html.src);
             console.log(branches[branchname])
           $('.imm').html(html);
-          $('.zxcv').hide();
+           $('.zxcv').hide();
+          
           $('.event-name').removeClass("selected");
+          $('.event-details-preview').show();
 
           }
 
