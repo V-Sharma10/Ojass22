@@ -748,7 +748,7 @@
           <div class="col-md-9" style="position: fixed;bottom:30px;left:200px;">
             <br>
             <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
-                    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" name="{{event.name.split(' ').join('').split('.').join('')}}">
+                    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" onclick="PreviewHide()"name="{{event.name.split(' ').join('').split('.').join('')}}">
                       <span style="color:#000;" >{{ event.name }}</span></a>
             </nav>
             <center style="position: relative;top:20px;">
@@ -777,7 +777,7 @@
           var branchname= '<?php echo $_GET['branch']; ?>';
          
         //  var html='<img src='+branches[branchname]+' class="event-img">';
-          var html='<div class="event-details-preview"style="width: 70vw;height: 70vh; margin:5px auto; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"></div></div></div>'
+          var html='<div class="event-details-preview"style="width: 70vw;height: 70vh; margin:5px auto; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">%Event Description%</span></div></div></div>'
           $('.imm').html(html);
 
           // $("a").mouseenter(function(){
@@ -804,14 +804,19 @@
             console.log('clicked');
             var branchname= '<?php echo $_GET['branch']; ?>';
          
-            var html='<div class="event-details-preview"style="width: 70vw;height: 70vh; margin:5px auto; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"style="height: 250px; background: #fff;border-radius: 0 0 25px 25px;" ><div class="event-desc"></div></div></div>'; //<img src='+branches[branchname]+' class="event-img">
+             var html='<div class="event-details-preview"style="width: 70vw;height: 70vh; margin:5px auto; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"style="height: 250px; background: #fff;border-radius: 0 0 25px 25px;" ><div class="event-desc"><span class="event-caption">%Event Description%</span></div></div></div>'; //<img src='+branches[branchname]+' class="event-img">
             console.log(html.src);
             console.log(branches[branchname])
-          $('.imm').html(html);
+           $('.imm').html(html);
            $('.zxcv').hide();
-          
+           //central image clicked
+           $('.imm').show()
           $('.event-name').removeClass("selected");
-          $('.event-details-preview').show();
+          
+
+          }
+          function PreviewHide(){
+            $('.imm').hide()
 
           }
 
