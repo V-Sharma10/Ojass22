@@ -7,11 +7,12 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 				//branch,about,coordinators array,detail,name,prize array,rules array,
 				var zz=snap.val()
 				for(var j in zz){
-					console.log(zz[j].branch);
+					// console.log(zz[j].branch);
+					// console.log(zz[j]);
 				}
 				var e=[];
 				var BRANCHNAME = branchname.toUpperCase();
-				console.log(BRANCHNAME + "  "+ branchname);
+				// console.log(BRANCHNAME + "  "+ branchname);
 
 				if(branchname == 'Live_CS '|| BRANCHNAME == 'LIVE_CS'){
 					branchname = 'Live CS';
@@ -100,6 +101,25 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 
 			})
 		})
+
+		// for event about and heads 
+		firebase.database().ref(`/Branches/${branchname}`).once('value', function (snap) {
+			if(snap.val()!=null){
+				console.log(snap.val());
+				console.log(snap.val().about);
+				console.log(snap.val().head);
+			}
+
+			$scope.$apply(function () {
+				$scope.head = snap.val().head;
+				$scope.about = snap.val().about;
+
+			})
+
+
+		})
+		// for event about and heads  end
+
 			
 	}])
 

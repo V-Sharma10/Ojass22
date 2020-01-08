@@ -775,9 +775,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript">
           var branchname= '<?php echo $_GET['branch']; ?>';
-         
-        //  var html='<img src='+branches[branchname]+' class="event-img">';
-          var html='<div class="event-details-preview"style="width:70vw;height:90vh;margin:0px auto;overflow:hidden; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">%Event Description%</span></div>   <div style="display:flex;justify-content:space-around;" class="heads"><div> <img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/></div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div></div></div></div>'
+          var html='<div class="event-details-preview"style="width:70vw;height:90vh;margin:0px auto;overflow:hidden; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -30px; margin-left: 780px; width: 300px; height: 300px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.6;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">EVENT ABOUT</span></div>   <div style="display:flex;justify-content:space-around;" class="heads"><div> <img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:200px;height:200px;margin-top: 40%; border-radius: 8em;"/></div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:200px;height:200px;margin-top: 45%; border-radius: 8em;"/> </div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:200px;height:200px;margin-top: 45%; border-radius: 8em;"/> </div></div></div></div>'
           $('.imm').html(html);
 
           // $("a").mouseenter(function(){
@@ -804,8 +802,8 @@
             console.log('clicked');
             var branchname= '<?php echo $_GET['branch']; ?>';
          
-             var html='<div class="event-details-preview"style="width:70vw;height:90vh;margin:0px auto;overflow:hidden; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">%Event Description%</span></div>   <div style="display:flex;justify-content:space-around;" class="heads"><div> <img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/></div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div></div></div></div>'; //<img src='+branches[branchname]+' class="event-img">
-            console.log(html.src);
+              var html='<div class="event-details-preview"style="width:70vw;height:90vh;margin:0px auto;overflow:hidden; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -30px; margin-left: 780px; width: 300px; height: 300px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.6;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">EVENT ABOUT</span></div>   <div style="display:flex;justify-content:space-around;" class="heads"><div> <img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:200px;height:200px;margin-top: 40%; border-radius: 8em;"/></div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:200px;height:200px;margin-top: 45%; border-radius: 8em;"/> </div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:200px;height:200px;margin-top: 45%; border-radius: 8em;"/> </div></div></div></div>' //<img src='+branches[branchname]+' class="event-img">
+            
             console.log(branches[branchname])
            $('.imm').html(html);
            $('.zxcv').hide();
@@ -816,9 +814,30 @@
 
           }
           function PreviewHide(){
-            $('.imm').hide()
+            $('.imm').<script type="text/javascript">
+
+          console.log('js test');
+
+            setTimeout(function(){
+          var about = angular.element(document.querySelector('[ng-controller="demoCtrl"]')).scope();
+        console.log(about);
+        console.log('qwerty')
+    },7000)
+
+
+         
+
+
+
+        </script>
+hide()
 
           }
+
+
+
+          
+
 
     </script>
 
