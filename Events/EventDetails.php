@@ -818,11 +818,11 @@
 
           console.log('js test');
 
-            setTimeout(function(){
-          var about = angular.element(document.querySelector('[ng-controller="demoCtrl"]')).scope();
-        console.log(about);
-        console.log('qwerty')
-    },7000)
+    //         setTimeout(function(){
+    //       var about = angular.element(document.querySelector('[ng-controller="demoCtrl"]')).scope();
+    //     console.log(about);
+    //     console.log('qwerty')
+    // },7000)
 
 
          
