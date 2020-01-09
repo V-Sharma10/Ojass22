@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="slick/slick.css" />
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+<!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
 <link rel="stylesheet" href="style.css">
 
   
@@ -33,7 +33,8 @@
                      <ul class="social">
                          <li><a href="#" class="fa fa-facebook"></a></li>
                          <!-- <li><a href="#" class="fa fa-twitter"></a></li> -->
-                         <li><a href="#" class="fa fa-instagram"></a></li>
+                         <li><a href="#" class="fa fa-instagram"><<link rel="stylesheet" type="text/css" href="slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />/a></li>
                          <li><a href="#" class="fa fa-linkedin"></a></li>
                      </ul>
                  </div>
@@ -67,7 +68,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="slick/slick.js"></script>
+<!-- <script type="text/javascript" src="slick/slick.js"></script> -->
 
 <script type="text/javascript">
   $(document).ready(function() {

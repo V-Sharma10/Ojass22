@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="slick/slick.css" />
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+<!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
 <link rel="stylesheet" href="style.css">
 
 
@@ -89,7 +89,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="slick/slick.js"></script>
+<!-- <script type="text/javascript" src="slick/slick.js"></script> -->
 
 <script type="text/javascript">
   $(document).ready(function() {
