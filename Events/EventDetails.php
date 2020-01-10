@@ -73,20 +73,21 @@
         'Armageddon':'../img/eventsIcons/armageddon.svg',
         'Arthashastra':'../img/eventsIcons/arthashastra.svg',
         'Aavartan':'../img/eventsIcons/avartan.svg',
-        'Circuit_House': '../img/eventsIcons/circuit_house.svg' ,
+        'Circuit House': '../img/eventsIcons/circuit_house.svg' ,
         'Deus-X-Machina': '../img/eventsIcons/deus_x_machina.svg' ,
         'Exposicion': '../img/eventsIcons/exposicion.svg',
-        'Live_CS':'../img/eventsIcons/live_cs.svg',
+        'Live CS':'../img/eventsIcons/live_cs.svg',
         'NSCET':'../img/eventsIcons/nscet.svg',
         'Neo Drishti':'../img/eventsIcons/neodrishti.svg',
-        'No_Ground_Zone':'../img/eventsIcons/no_ground_zone.svg',
-        'NCFF':'../img/eventsIcons/paraphernalia.svg',
+        'No Ground Zone':'../img/eventsIcons/no_ground_zone.svg',
+        'National College Film Festival':'../img/eventsIcons/paraphernalia.svg',
         'Prayas':'../img/eventsIcons/prayas.svg',
         'Produs':'../img/eventsIcons/produs.svg',
-        'Rise_of_Machines':'../img/eventsIcons/rise_of_machines.svg',
-        'Silicon_Valley':'../img/eventsIcons/silicon_valley.svg',
-        'VishwaCodegenesis':'../img/eventsIcons/vishwacodegenesis.svg',
-        'School_Events':'../img/eventsIcons/school_events.svg'
+        'Rise of Machines':'../img/eventsIcons/rise_of_machines.svg',
+        'Silicon Valley':'../img/eventsIcons/silicon_valley.svg',
+        'Vishwa Code Genesis':'../img/eventsIcons/vishwacodegenesis.svg',
+        'School Events':'../img/eventsIcons/school_events.svg',
+        'Checkered Flag':'../img/eventsIcons/checkered_flag.svg'
       }
 
         </script>
@@ -613,7 +614,7 @@
               name="coordinators"
               class="icon-features-6 btn-with-icon"
               ><span class="sq-bt-label label-bottom-right"
-                >CO-ORDINATORS</span
+                >EVENT HEADS</span
               ></a
             >
           </div>
@@ -732,7 +733,7 @@
                   </div>
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} coordinators" style="display:none;">
                   
-                    <h4 class="text-center" style="text-decoration: underline;">Co-ordinators</h4>
+                    <h4 class="text-center" style="text-decoration: underline;">Event Heads</h4>
                     
                     <div class="row text-center" ng-repeat="c in event.coordinators">
                       <div class="col-md-6">{{c.name}}</div>
@@ -778,6 +779,9 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript">
           var branchname= '<?php echo $_GET['branch']; ?>';
+          if(branchname=='NCFF'){
+            branchname="National College Film Festival"
+          }
          
         // $('<style>').text('.event-details-preview{width:70vw;height:90vh;margin:0px auto;overflow:hidden;border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd; };').appendTo(document.head);
         //   $('<style>').text('.card-head-event{ position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;}').appendTo(document.head);

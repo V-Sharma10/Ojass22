@@ -8,6 +8,7 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 				var zz=snap.val()
 				// for(var j in zz){
 				// 	console.log(zz[j].branch);
+					
 				// }
 				var e=[];
 				
@@ -47,6 +48,11 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 						e.push(zz[i]);
 						
 						
+					}
+
+					if(zz[i].branch=='NCFF'){
+						console.log(zz[i]);
+						e.push(zz[i]);
 					}
 				}
 				// console.log(e);
@@ -103,7 +109,14 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 		})
 
 		// for event about and heads 
+		if (branchname =='National College Film Festival'){
+			console.log('asdfghjkoiuytrewqazxcvbnm   ' + branchname)
+			// branchname='NCFF';
+		}
 		firebase.database().ref(`/Branches/${branchname}`).once('value', function (snap) {
+
+			console.log( branchname)
+			console.log(snap.val());
 			var h=[];
 			if(snap.val()!=null){
 				console.log(snap.val());
