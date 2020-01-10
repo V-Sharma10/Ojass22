@@ -324,11 +324,11 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;">
-              <a href="./Events/EventDetails.php?branch=ARTHASHASTRA" target="_blank">
+              <a href="./Events/EventDetails.php?branch=Arthashastra" target="_blank">
               <img src = "./img/eventsIcons/arthashastra.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title"><a href="./Events/EventDetails.php?branch=ARTHASHASTRA" target="_blank">ARTHASHASTRA</a></h4>
+              <h4 class="title"><a href="./Events/EventDetails.php?branch=Arthashastra" target="_blank">Arthashastra</a></h4>
               <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> <-->
             </div>
           </div>
@@ -338,13 +338,13 @@
             <div class="box">
               <div class="icon" style="background: #eafde7;">
 
-                <a href="./Events/EventDetails.php?branch=VishwaCodegenesis" target="_blank">
+                <a href="./Events/EventDetails.php?branch=Vishwa Code Genesis" target="_blank">
                   <img src="./img/eventsIcons/vishwacodegenesis.svg" height="140px"
                     style="margin-left:-30px; margin-top:-40px;">
                 </a>
               </div>
               <h4 class="title">
-                <a href="./Events/EventDetails.php?branch=VishwaCodegenesis" target="_blank">VishwaCodegenesis</a></h4>
+                <a href="./Events/EventDetails.php?branch=Vishwa Code Genesis" target="_blank">VishwaCodegenesis</a></h4>
               <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum</p> -->
             </div>
@@ -354,11 +354,11 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #fff0da;">
-              <a href="./Events/EventDetails.php?branch=Rise_of_Machines" target="_blank">
+              <a href="./Events/EventDetails.php?branch=Rise of Machines" target="_blank">
               <img src = "./img/eventsIcons/rise_of_machines.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a></div>
               <h4 class="title">
-              <a href="./Events/EventDetails.php?branch=Rise_of_Machines" target="_blank">Rise of Machines</a></h4>
+              <a href="./Events/EventDetails.php?branch=Rise of Machines" target="_blank">Rise of Machines</a></h4>
               <!-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
             </div>
           </div>
@@ -372,11 +372,11 @@
            <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e1eeff;">
-              <a href="./Events/EventDetails.php?branch=Paraphernalia" target="_blank">
+              <a href="./Events/EventDetails.php?branch=NCFF" target="_blank">
               <img src = "./img/eventsIcons/paraphernalia.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title"><a href="./Events/EventDetails.php?branch=Paraphernalia" target="_blank">Paraphernalia</a></h4>
+              <h4 class="title"><a href="./Events/EventDetails.php?branch=NCFF" target="_blank">National College Film Festival</a></h4>
               <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
             </div>
           </div>
@@ -390,7 +390,7 @@
               <img src = "./img/eventsIcons/armageddon.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title"> <a href="./Events/EventDetails.php?branch=Armageddon" target="_blank">ARMAGEDDON</a></h4>
+              <h4 class="title"> <a href="./Events/EventDetails.php?branch=Armageddon" target="_blank">Armageddon</a></h4>
               <!-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
             </div>
           </div>

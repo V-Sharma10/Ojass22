@@ -43,14 +43,21 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 				for(var i in zz){
 					// console.log(i);
 
+					// console.log(zz[i].branch);
+					// // console.log(branchname)
+					if(branchname='National College Film Festival'){
+						branchname="NCFF";
+					}
 					if(zz[i].branch==branchname || zz[i].branch == BRANCHNAME){
-						// console.log(zz[i]);
 						e.push(zz[i]);
 						
 						
 					}
 
-					
+					// else if(zz[i].branch=='NCFF'){
+					// 	console.log(zz[i]);
+					// 	e.push(zz[i]);
+					// }
 				}
 				// console.log(e);
 				for(var i in e){
