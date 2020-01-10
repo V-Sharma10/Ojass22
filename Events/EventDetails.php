@@ -800,7 +800,7 @@
          
         //  var html='<img src='+branches[branchname]+' class="event-img">';
 
-          var html='<div class="event-details-preview row"><div class="card-head-event col-md-5"><img src='+branches[branchname]+' class="event-imgs" style="z-index:5;display:block!important;"/></div><div class="card-event-body col-md-7"><div class="event-desc"><div class="back-text-event"><span class="text" style="font-family:batman;font-size:42px;">'+branchname+'<br></span></div><span class="event-caption " style="margin-top:50%!important;"><br>{{about}}</span></div><br><br><div class="row" style="justify-content:space-around;"> <div ng-repeat="h in head" class="event-name ">{{h.name}} <div class="heads"> <img src={{h.url}} alt="Branch Head" style="width:150px;height:150px;" class="branch-heads"/><br> <br>{{h.cn}}<br>{{h.wn}}</div></div></div> </div></div>'
+          var html='<div class="event-details-preview row container-fluid"><div class="card-head-event col-md-4"><img src='+branches[branchname]+' class="event-imgs" style="z-index:5;display:block!important;"/></div><div class="card-event-body col-md-8"><div class="event-desc"><div class="back-text-event"><span class="text" style="font-family:batman;font-size:42px;">'+branchname+'<br></span></div><span class="event-caption " style="margin-top:50%!important;"><br>{{about}}</span></div><br><br><div class="row" style="justify-content:space-around;"> <div ng-repeat="h in head" class="event-name ">{{h.name}} <div class="heads"> <img src={{h.url}} alt="Branch Head" style="width:150px;height:150px;" class="branch-heads"/><br> <br>{{h.cn}}<br>{{h.wn}}</div></div></div> </div></div>'
           $('.imm').html(html);
 
           // $("a").mouseenter(function(){
