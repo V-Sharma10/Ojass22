@@ -193,10 +193,10 @@
             <div class="box">
               <div class="icon" style="background: #e6fdfc;">
               
-              <a href="../Events/EventDetails.php?branch=Neodrishti" target="_blank">
+              <a href="../Events/EventDetails.php?branch=Neo Drishti" target="_blank">
               <img src = "../img/eventsIcons/neodrishti.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a></div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=Neodrishti" target="_blank">Neodrishti</a></h4>
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=Neo Drishti" target="_blank">Neodrishti</a></h4>
               <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
             </div>
           </div>

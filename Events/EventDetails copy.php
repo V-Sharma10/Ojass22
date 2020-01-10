@@ -69,19 +69,19 @@
     <script type="text/javascript">
         
         var branches={
-        'Aakriti':'../img/eventsIcons/akriti.svg',
+        'AAKRITI':'../img/eventsIcons/akriti.svg',
         'Armageddon':'../img/eventsIcons/armageddon.svg',
-        'Arthashastra':'../img/eventsIcons/arthashastra.svg',
-        'Aavartan':'../img/eventsIcons/avartan.svg',
+        'ARTHASHASTRA':'../img/eventsIcons/arthashastra.svg',
+        'AVARTAN':'../img/eventsIcons/avartan.svg',
         'Circuit_House': '../img/eventsIcons/circuit_house.svg' ,
         'Deus-X-Machina': '../img/eventsIcons/deus_x_machina.svg' ,
-        'Exposicion': '../img/eventsIcons/exposicion.svg',
+        'EXPOSICION': '../img/eventsIcons/exposicion.svg',
         'Live_CS':'../img/eventsIcons/live_cs.svg',
         'NSCET':'../img/eventsIcons/nscet.svg',
-        'Neo Drishti':'../img/eventsIcons/neodrishti.svg',
+        'Neodrishti':'../img/eventsIcons/neodrishti.svg',
         'No_Ground_Zone':'../img/eventsIcons/no_ground_zone.svg',
-        'NCFF':'../img/eventsIcons/paraphernalia.svg',
-        'Prayas':'../img/eventsIcons/prayas.svg',
+        'Paraphernalia':'../img/eventsIcons/paraphernalia.svg',
+        'PRAYAS':'../img/eventsIcons/prayas.svg',
         'Produs':'../img/eventsIcons/produs.svg',
         'Rise_of_Machines':'../img/eventsIcons/rise_of_machines.svg',
         'Silicon_Valley':'../img/eventsIcons/silicon_valley.svg',
@@ -537,10 +537,7 @@
 
         <div class=""><!--class='row' style="display:flex;justify-content:center;align-item:center;text-align:center;"-->
         <!--the div below will be replaced every time-->
-          <div class="imm">
-            
-          
-          </div><!--class 'col-md-12 text-center' removed by me-->
+          <div class="imm"></div><!--class 'col-md-12 text-center' removed by me-->
         </div>
         
         <div ng-repeat="event in events" class="event-wrapper zxcv" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
@@ -751,7 +748,7 @@
           <div class="col-md-9" style="position: fixed;bottom:30px;left:200px;">
             <br>
             <nav class="menu-navigation-dark" id='bottomMenu' class="fade-element-in" ng-if="flag" ng-cloak>
-                    <a style="word-wrap: break-word;" ng-repeat="event in events" href="#" class="event-name" onclick="PreviewHide()"name="{{event.name.split(' ').join('').split('.').join('')}}">
+                    <a style="word-wrap: break-word;" ng-repeat="event in events" href="" class="event-name" onclick="PreviewHide()"name="{{event.name.split(' ').join('').split('.').join('')}}">
                       <span style="color:#000;" >{{ event.name }}</span></a>
             </nav>
             <center style="position: relative;top:20px;">
@@ -778,25 +775,22 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript">
           var branchname= '<?php echo $_GET['branch']; ?>';
-         
-        // $('<style>').text('.event-details-preview{width:70vw;height:90vh;margin:0px auto;overflow:hidden;border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd; };').appendTo(document.head);
-        //   $('<style>').text('.card-head-event{ position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;}').appendTo(document.head);
-           $('<style>').text('.branch-heads{ width: 300px; height: 300px;}').appendTo(document.head);
-        //   $('<style>').text('.back-text-event{display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;}').appendTo(document.head);
-        //   $('<style>').text('.text{margin-top:8%;}').appendTo(document.head);
-        //   $('<style>').text('.event-caption{display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;}').appendTo(document.head);
-        //   $('<style>').text('.heads{display:flex;justify-content:space-around;}').appendTo(document.head);
-        //   $('<style>').text('.branch-heads{width:220px;height:220px;margin-top: 5%; border-radius: 8em;}').appendTo(document.head);
+          $('<style>').text('.event-details-preview{width:70vw;height:90vh;margin:0px auto;overflow:hidden;border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd; };').appendTo(document.head);
+          $('<style>').text('.card-head-event{ position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;}').appendTo(document.head);
+          $('<style>').text('.event-img{ position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;}').appendTo(document.head);
+          $('<style>').text('.back-text-event{display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;}').appendTo(document.head);
+          $('<style>').text('.text{margin-top:8%;}').appendTo(document.head);
+          $('<style>').text('.event-caption{display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;}').appendTo(document.head);
+          $('<style>').text('.heads{display:flex;justify-content:space-around;}').appendTo(document.head);
+          $('<style>').text('.branch-heads{width:220px;height:220px;margin-top: 5%; border-radius: 8em;}').appendTo(document.head);
 
-        
 
-     
         
           
          
         //  var html='<img src='+branches[branchname]+' class="event-img">';
 
-          var html='<div class="event-details-preview row"><div class="card-head-event col-md-5"><img src='+branches[branchname]+' class="event-imgs" style="z-index:5;display:block!important;"/></div><div class="card-event-body col-md-7"><div class="event-desc"><div class="back-text-event"><span class="text" style="font-family:batman;font-size:42px;">'+branchname+'<br></span></div><span class="event-caption " style="margin-top:50%!important;"><br>{{about}}</span></div><br><br><div class="row" style="justify-content:space-around;"> <div ng-repeat="h in head" class="event-name ">{{h.name}} <div class="heads"> <img src={{h.url}} alt="Branch Head" style="width:150px;height:150px;" class="branch-heads"/><br> <br>{{h.cn}}<br>{{h.wn}}</div></div></div> </div></div>'
+          var html='<div class="event-details-preview"><div class="card-head-event"><img src='+branches[branchname]+' class="event-img"/><div class="back-text-event"><span class="text">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption">{{about}}</span></div> <div ng-repeat="h in head" class="event-name ">{{h.name}} <div class="heads"> <img src={{h.url}} alt="Branch Head" class="branch-heads"/></div></div></div></div>'
           $('.imm').html(html);
 
           // $("a").mouseenter(function(){
@@ -816,27 +810,20 @@
 
           var eventIcon =document.getElementById('pulse');
           eventIcon.src = branches[branchname];
-          // console.log(eventIcon.src);
-          // console.log(eventIcon);
+          console.log(eventIcon.src);
+          console.log(eventIcon);
 
           function EventDetails(){
             console.log('clicked');
-            
-            // var branchname= '<?php /*echo $_GET['branch'];*/ ?>';
-         
-          //    var html='<div class="event-details-preview"style="width:70vw;height:90vh;margin:0px auto;overflow:hidden; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">%Event Description%</span></div>   <div style="display:flex;justify-content:space-around;" class="heads"><div> <img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/></div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div></div></div></div>'; //<img src='+branches[branchname]+' class="event-img">
-          //   console.log(html.src);
-          //   console.log(branches[branchname])
-          //  $('.imm').html(html);
            $('.zxcv').hide();
            //central image clicked
-           $('.imm').show();
+           $('.imm').show()
           $('.event-name').removeClass("selected");
           
 
           }
           function PreviewHide(){
-            $('.imm').hide();
+            $('.imm').hide()
 
           }
 
