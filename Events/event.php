@@ -83,6 +83,17 @@
              
             </div>
           </div>
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;">
+              <a href="../Events/EventDetails.php?branch=Aavartan" target="_blank">
+              <img src = "../img/eventsIcons/avartan.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+ </a>
+              </div>
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=Aavartan" target="_blank">Aavartan</a></h4>
+              <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
+            </div>
+          </div>
 
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
@@ -108,18 +119,19 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+          
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon" style="background: #e6fdfc;">
-              <a href="../Events/EventDetails.php?branch=Aavartan" target="_blank">
-              <img src = "../img/eventsIcons/avartan.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
- </a>
+              <div class="icon" style="background: #e1eeff;">
+              <a href="../Events/EventDetails.php?branch=Checkered Flag" target="_blank">
+              <img src = "../img/eventsIcons/school_events.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+              </a>
               </div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=Aavartan" target="_blank">Aavartan</a></h4>
-              <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
+              <h4 class="title">
+              <a href="../Events/EventDetails.php?branch=Checkered Flag" target="_blank">Checkred Flag</a></h4>
+              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
             </div>
           </div>
-
 
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
@@ -174,18 +186,15 @@
               <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon" style="background: #fff0da;">
-              
-              <a href="../Events/EventDetails.php?branch=NSCET" target="_blank">
-              <img src = "../img/eventsIcons/nscet.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
-
+              <div class="icon" style="background: #e1eeff;">
+              <a href="../Events/EventDetails.php?branch=NCFF" target="_blank">
+              <img src = "../img/eventsIcons/paraphernalia.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title">
-              <a href="../Events/EventDetails.php?branch=NSCET" target="_blank">NSCET</a></h4>
-              <!-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=NCFF" target="_blank">National College Film Festival</a></h4>
+              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
             </div>
           </div>
 
@@ -211,18 +220,22 @@
               <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon" style="background: #e1eeff;">
-              <a href="../Events/EventDetails.php?branch=NCFF" target="_blank">
-              <img src = "../img/eventsIcons/paraphernalia.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+              <div class="icon" style="background: #fff0da;">
+              
+              <a href="../Events/EventDetails.php?branch=NSCET" target="_blank">
+              <img src = "../img/eventsIcons/nscet.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+
               </a>
               </div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=NCFF" target="_blank">National College Film Festival</a></h4>
-              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
+              <h4 class="title">
+              <a href="../Events/EventDetails.php?branch=NSCET" target="_blank">NSCET</a></h4>
+              <!-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
             </div>
           </div>
+
+          
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #ecebff;">
@@ -258,7 +271,18 @@
               <!-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
             </div>
           </div>
-
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon" style="background: #e1eeff;">
+              <a href="../Events/EventDetails.php?branch=School Events" target="_blank">
+              <img src = "../img/eventsIcons/school_events.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+              </a>
+              </div>
+              <h4 class="title">
+              <a href="../Events/EventDetails.php?branch=School Events" target="_blank">School Events</a></h4>
+              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
+            </div>
+          </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;">
@@ -271,19 +295,9 @@
               <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #eafde7;">
-              
-              <a href="../Events/EventDetails.php?branch=Vishwa Code Genesis" target="_blank">
-              <img src = "../img/eventsIcons/vishwacodegenesis.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
-              </a>
-              </div>
-              <h4 class="title">
-              <a href="../Events/EventDetails.php?branch=Vishwa Code Genesis" target="_blank">VishwaCodegenesis</a></h4>
-              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
-            </div>
-          </div>
+          
+          
+          
 
           
 
@@ -297,18 +311,7 @@
             </div> -->
           <!-- </div> -->
 
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
-            <div class="box">
-              <div class="icon" style="background: #e1eeff;">
-              <a href="../Events/EventDetails.php?branch=School Events" target="_blank">
-              <img src = "../img/eventsIcons/school_events.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
-              </a>
-              </div>
-              <h4 class="title">
-              <a href="../Events/EventDetails.php?branch=School Events" target="_blank">School Events</a></h4>
-              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
-            </div>
-          </div>
+          
 
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <!-- <div class="box">
@@ -322,16 +325,17 @@
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div> -->
           </div>
-          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
-              <div class="icon" style="background: #e1eeff;">
-              <a href="../Events/EventDetails.php?branch=Checkered Flag" target="_blank">
-              <img src = "../img/eventsIcons/school_events.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
+              <div class="icon" style="background: #eafde7;">
+              
+              <a href="../Events/EventDetails.php?branch=Vishwa Code Genesis" target="_blank">
+              <img src = "../img/eventsIcons/vishwacodegenesis.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
               <h4 class="title">
-              <a href="../Events/EventDetails.php?branch=Checkered Flag" target="_blank">Checkred Flag</a></h4>
-              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
+              <a href="../Events/EventDetails.php?branch=Vishwa Code Genesis" target="_blank">VishwaCodegenesis</a></h4>
+              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
