@@ -281,19 +281,20 @@
         height: 110px;
         width: 85px;
         background-repeat: no-repeat;
-        position: absolute;
+        position: auto;
         bottom: 29%;
-        left:28%;
+        /* left:0!important; */
       }
-      /* .features-graph .icon-features-5:after {
+       .features-graph .icon-features-5:after {
         content: " ";
         background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/bottom.svg);
         height: 110px;
         width: 85px;
         background-repeat: no-repeat;
         position: absolute;
-        bottom: 23%;
-      } */
+        bottom: 29%;
+        left:auto!important;
+      } 
       .features-graph .icon-features-6:after {
         content: " ";
         background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/bottom-right.svg);
@@ -303,7 +304,7 @@
         background-repeat: no-repeat;
         position: absolute;
         bottom: 29%;
-        left: 38%;
+        left: 47%;
       }
 
       .features-graph #top-left-line {

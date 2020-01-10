@@ -231,12 +231,12 @@
         top: 13%;
       }
       .features-graph .label-bottom-left {
-        left: 24%;
+        left: 14%;
         bottom: 17%;
       }
     
       .features-graph .label-bottom-right {
-        left: 43%;
+        left: 54%;
         bottom: 17%;
       }
       /* tilted line for feature-1 */
@@ -284,7 +284,7 @@
         background-repeat: no-repeat;
         position: absolute;
         bottom: 29%;
-        left:28%;
+        left:17%;
       }
       /* .features-graph .icon-features-5:after {
         content: " ";
@@ -294,7 +294,7 @@
         background-repeat: no-repeat;
         position: absolute;
         bottom: 23%;
-      } */
+      }  */
       .features-graph .icon-features-6:after {
         content: " ";
         background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/598117/bottom-right.svg);
@@ -304,7 +304,7 @@
         background-repeat: no-repeat;
         position: absolute;
         bottom: 29%;
-        left: 38%;
+        left: 47%;
       }
 
       .features-graph #top-left-line {
@@ -328,6 +328,11 @@
         background-size: 65%;
       }
       .features-graph .icon-features-4 {
+        background-image: url(../img/eventsIcons/icon-6.svg);
+        background-size: 65%;
+        background-position: 50% 50%;
+      }
+       .features-graph .icon-features-5 {
         background-image: url(../img/eventsIcons/icon-6.svg);
         background-size: 65%;
         background-position: 50% 50%;
@@ -544,7 +549,7 @@
           </div><!--class 'col-md-12 text-center' removed by me-->
         </div>
         
-        <div ng-repeat="event in events" class="event-wrapper zxcv" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
+        <div ng-repeat="event in events" class="event-wrapper zxcv container-fluid" id="{{event.name.split(' ').join('') | removeBrackets}}" style="display:none;">
         <div class="row">
           <div class="col-md-6 sidebar">
             <!-- <nav class="menu-navigation-dark sidebarmenu" style="position: absolute;left:20px;">
@@ -561,7 +566,7 @@
           <nav class="menu-navigation-dark ">
       <div class="features-content-col">
         <div data-features-nav class="features-graph">
-          <div class="button-holder sidebarmenu" style="margin-top:0px!important">
+          <div class="button-holder sidebarmenu" style="margin-top:-10px!important">
             <a
               href="#"
               name="about"
@@ -605,10 +610,18 @@
 
 
 
-          <div class="button-holder sidebarmenu" style="margin-top:65%!important;">
-            <a href="#" name="rules" class="icon-features-4 btn-with-icon"
+          <div class="button-holder sidebarmenu" style="margin-top:68%!important;">
+           
+           
+            <a href="#" name="rules" class="icon-features-4 btn-with-icon"style="margin-right:38%;!important"
               ><span class="sq-bt-label label-bottom-left">RULES</span></a
             >
+           
+            <!-- <a href="#" name="rules" class="icon-features-5 " style="display:none;"
+              ><span class="sq-bt-label label-bottom"></span></a
+            > -->
+         
+         
             <a
               href="#"
               name="coordinators"
@@ -617,19 +630,20 @@
                 >EVENT HEADS</span
               ></a
             >
+         
           </div>
         </div>
       </div>
     </nav>
           </div>
-          <div class="col-md-6 mainarea">
+          <div class="col-md-6 mainarea" style="margin-right:0%;!important">
             <div class="row text-center">
               <div class="col-md-12" id='stuffname'></div>
             </div>
-            <div class="row">
+            <!-- <div class="row"> -->
             
-              <div class="col-md-12">
-                <div class="details">
+              <!-- <div class="col-md-12"> -->
+                <div class="details" style="width:100%;height">
                   
                   <!-- Tabs for 1st Sub Event -->
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} about" style="display:none;">
@@ -658,8 +672,8 @@
                           
                       </li>
                     </ol>
-                    </div>
-                  </div>
+                    <!-- </div>
+                  </div> -->
 
                   <div class="{{event.name.split(' ').join('') | removeBrackets}} prizes" style="display:none;">
                 
@@ -800,7 +814,7 @@
          
         //  var html='<img src='+branches[branchname]+' class="event-img">';
 
-          var html='<div class="event-details-preview row container-fluid"><div class="card-head-event col-md-4"><img src='+branches[branchname]+' class="event-imgs" style="z-index:5;display:block!important;margin-left:-18%;"/></div><div class="card-event-body col-md-8"><div class="event-desc"><div class="back-text-event"><span class="text" style="font-family:batman;font-size:42px;">'+branchname+'<br></span></div><span class="event-caption " style="margin-top:50%!important;"><br>{{about}}</span></div><br><br><div class="row" style="justify-content:space-around;"> <div ng-repeat="h in head" class="event-name ">{{h.name}} <div class="heads"> <img src={{h.url}} alt="Branch Head" style="width:150px;height:150px;" class="branch-heads"/><br> <br>{{h.cn}}<br>{{h.wn}}</div></div></div> </div></div>'
+          var html='<div class="event-details-preview row container-fluid"><div class="card-head-event col-md-4"><img src='+branches[branchname]+' class="event-imgs" style="z-index:5;display:block!important;margin-left:-18%;"/></div><div class="card-event-body col-md-8"><div class="event-desc"><div class="back-text-event"><span class="text" style="font-family:batman;font-size:42px;">'+branchname+'<br></span></div><span class="event-caption " style="margin-top:50%!important;"><br>{{about}}</span></div><br><br><div class="row" style="justify-content:space-around;"> <div ng-repeat="h in head" class="event-name ">{{h.name}} <div class="heads"> <img src={{h.url}} alt="Branch Head" style="width:150px;height:150px;" class="branch-heads"/><br> <br><img src="https://img.icons8.com/plasticine/36/000000/phone.png">: &nbsp;{{h.cn}}<br><img src="https://img.icons8.com/doodle/36/000000/whatsapp.png">: &nbsp;{{h.wn}}</div></div></div> </div></div>'
           $('.imm').html(html);
 
           // $("a").mouseenter(function(){

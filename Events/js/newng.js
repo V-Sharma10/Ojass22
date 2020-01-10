@@ -45,7 +45,7 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 
 					// console.log(zz[i].branch);
 					// // console.log(branchname)
-					if(branchname='National College Film Festival'){
+					if(branchname=='National College Film Festival'){
 						branchname="NCFF";
 					}
 					if(zz[i].branch==branchname || zz[i].branch == BRANCHNAME){

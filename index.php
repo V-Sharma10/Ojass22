@@ -376,7 +376,7 @@
               <img src = "./img/eventsIcons/paraphernalia.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title"><a href="./Events/EventDetails.php?branch=NCFF" target="_blank">National College Film Festival</a></h4>
+              <h4 class="title"><a href="./Events/EventDetails.php?branch=NCFF" target="_blank">NCFF</a></h4>
               <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
             </div>
           </div>

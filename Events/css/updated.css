@@ -64,11 +64,11 @@
 
 .details{
   font-family:Lato;
-  xmargin-right: 100px;
+  /* xmargin-right: 100px; */
   background: rgba(13, 79, 237, 0.07);
   position: relative;
-  right: 138px;
-  height: 360px;
+  right: 100px;
+  height: 800px;
   /* padding: 26px; */
   overflow: hidden;
   padding: 32px;
