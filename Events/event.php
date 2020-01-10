@@ -71,14 +71,14 @@
             <div class="box">
             
               <div class="icon" style="background: #fceef3;">
-              <a href="../Events/EventDetails.php?branch=AAKRITI" target="_blank">
+              <a href="../Events/EventDetails.php?branch=Aakriti" target="_blank">
 
               <!-- <i class="ion-ios-analytics-outline" style="color: #ff689b;"></i> -->
               <img src = "../img/eventsIcons/akriti.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
 
               </a>
               </div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=AAKRITI" target="_blank">AAKRITI</a></h4>
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=Aakriti" target="_blank">Aakriti</a></h4>
               <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
              
             </div>
@@ -91,7 +91,7 @@
               <img src = "../img/eventsIcons/armageddon.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title"> <a href="../Events/EventDetails.php?branch=Armageddon" target="_blank">ARMAGEDDON</a></h4>
+              <h4 class="title"> <a href="../Events/EventDetails.php?branch=Armageddon" target="_blank">Armageddon</a></h4>
               <!-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> -->
             </div>
           </div>
@@ -99,11 +99,11 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;">
-              <a href="../Events/EventDetails.php?branch=ARTHASHASTRA" target="_blank">
+              <a href="../Events/EventDetails.php?branch=Arthashastra" target="_blank">
               <img src = "../img/eventsIcons/arthashastra.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
  </a>
               </div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=ARTHASHASTRA" target="_blank">ARTHASHASTRA</a></h4>
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=Arthashastra" target="_blank">Arthashastra</a></h4>
               <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
             </div>
           </div>
@@ -111,11 +111,11 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;">
-              <a href="../Events/EventDetails.php?branch=AVARTAN" target="_blank">
+              <a href="../Events/EventDetails.php?branch=Aavartan" target="_blank">
               <img src = "../img/eventsIcons/avartan.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
  </a>
               </div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=AVARTAN" target="_blank">Avartan</a></h4>
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=Aavartan" target="_blank">Aavartan</a></h4>
               <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> -->
             </div>
           </div>
@@ -152,12 +152,12 @@
             <div class="box">
               <div class="icon" style="background: #ecebff;">
               
-              <a href="../Events/EventDetails.php?branch=EXPOSICION" target="_blank">
+              <a href="../Events/EventDetails.php?branch=Exposicion" target="_blank">
               <img src = "../img/eventsIcons/exposicion.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
               <h4 class="title">
-              <a href="../Events/EventDetails.php?branch=EXPOSICION" target="_blank">EXPOSICION</a></h4>
+              <a href="../Events/EventDetails.php?branch=Exposicion" target="_blank">Exposicion</a></h4>
               <!-- <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p> -->
             </div>
           </div>
@@ -215,22 +215,22 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e1eeff;">
-              <a href="../Events/EventDetails.php?branch=Paraphernalia" target="_blank">
+              <a href="../Events/EventDetails.php?branch=NCFF" target="_blank">
               <img src = "../img/eventsIcons/paraphernalia.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=Paraphernalia" target="_blank">Paraphernalia</a></h4>
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=NCFF" target="_blank">National College Film Festival</a></h4>
               <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #ecebff;">
-              <a href="../Events/EventDetails.php?branch=PRAYAS" target="_blank">
+              <a href="../Events/EventDetails.php?branch=Prayas" target="_blank">
               <img src = "../img/eventsIcons/prayas.svg" height="140px" style="margin-left:-30px; margin-top:-40px;">
               </a>
               </div>
-              <h4 class="title"><a href="../Events/EventDetails.php?branch=PRAYAS" target="_blank">PRAYAS</a></h4>
+              <h4 class="title"><a href="../Events/EventDetails.php?branch=Prayas" target="_blank">Prayas</a></h4>
               <!-- <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p> -->
             </div>
           </div>

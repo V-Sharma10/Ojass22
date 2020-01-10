@@ -69,19 +69,19 @@
     <script type="text/javascript">
         
         var branches={
-        'AAKRITI':'../img/eventsIcons/akriti.svg',
+        'Aakriti':'../img/eventsIcons/akriti.svg',
         'Armageddon':'../img/eventsIcons/armageddon.svg',
-        'ARTHASHASTRA':'../img/eventsIcons/arthashastra.svg',
-        'AVARTAN':'../img/eventsIcons/avartan.svg',
+        'Arthashastra':'../img/eventsIcons/arthashastra.svg',
+        'Aavartan':'../img/eventsIcons/avartan.svg',
         'Circuit_House': '../img/eventsIcons/circuit_house.svg' ,
         'Deus-X-Machina': '../img/eventsIcons/deus_x_machina.svg' ,
-        'EXPOSICION': '../img/eventsIcons/exposicion.svg',
+        'Exposicion': '../img/eventsIcons/exposicion.svg',
         'Live_CS':'../img/eventsIcons/live_cs.svg',
         'NSCET':'../img/eventsIcons/nscet.svg',
         'Neodrishti':'../img/eventsIcons/neodrishti.svg',
         'No_Ground_Zone':'../img/eventsIcons/no_ground_zone.svg',
-        'Paraphernalia':'../img/eventsIcons/paraphernalia.svg',
-        'PRAYAS':'../img/eventsIcons/prayas.svg',
+        'NCFF':'../img/eventsIcons/paraphernalia.svg',
+        'Prayas':'../img/eventsIcons/prayas.svg',
         'Produs':'../img/eventsIcons/produs.svg',
         'Rise_of_Machines':'../img/eventsIcons/rise_of_machines.svg',
         'Silicon_Valley':'../img/eventsIcons/silicon_valley.svg',
@@ -777,7 +777,7 @@
           var branchname= '<?php echo $_GET['branch']; ?>';
          
         //  var html='<img src='+branches[branchname]+' class="event-img">';
-          var html='<div class="event-details-preview"style="width:70vw;height:90vh;margin:0px auto;overflow:hidden; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">%Event Description%</span></div>   <div style="display:flex;justify-content:space-around;" class="heads"><div> <img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/></div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div></div></div></div>'
+          var html='<div class="event-details-preview"style="width:70vw;height:90vh;margin:0px auto;overflow:hidden; border-radius: 25px; box-shadow: -11px 11px 1px #f5f8fd;"><div class="card-head-event" style=" position: relative; height: 230px; background: #24b9fe;background: linear-gradient(135deg, #fff 8%, #24b9fe 83%);border-radius: 25px 25px 0 0;"><img src='+branches[branchname]+' class="event-img"style="  position: absolute; left: 0; margin-top: -5px; margin-left: 760px; width: 380px; height: 380px;"/><div class="back-text-event"style="  display: flex; justify-content: center; font-size: 31px; font-weight: 900; opacity: 0.1;"><span class="text" style="margin-top:8%;">'+branchname+'</span></div></div><div class="card-event-body"><div class="event-desc"><span class="event-caption" style="display: block; padding: 0 20px;font-size: 14px; font-weight: 400; text-transform: uppercase; overflow: hidden;">%Event Description%</span></div>   <div style="display:flex;justify-content:space-around;" class="heads"><div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div> <div><img src='+branches[branchname]+' alt="Branch Head" class="branch-heads" style="width:220px;height:220px;margin-top: 45%; border-radius: 8em;"/> </div></div></div></div>'
           $('.imm').html(html);
 
           // $("a").mouseenter(function(){
