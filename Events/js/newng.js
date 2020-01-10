@@ -50,10 +50,7 @@ angular.module('eventApp',['ngSanitize','ngAnimate'])
 						
 					}
 
-					if(zz[i].branch=='NCFF'){
-						console.log(zz[i]);
-						e.push(zz[i]);
-					}
+					
 				}
 				// console.log(e);
 				for(var i in e){
